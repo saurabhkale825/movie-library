@@ -1,0 +1,33 @@
+.header{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 25px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.sidebar{
+    width: 30vw;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.movie-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.movie-card{
+    border : 1px solid black;
+    height: 400px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.movie-image{
+    width: 80%;
+    height: 60%;
+}

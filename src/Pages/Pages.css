@@ -1,0 +1,31 @@
+.homepage{
+    display: flex;
+}
+
+.login{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border : 1px solid black;
+    position: relative;
+    left: 30%;
+}
+
+.login-text{
+    text-align: center;
+}
+
+.login-input{
+    width: 80%;
+    height: 30px;
+    position: relative;
+    left: 5%;
+    margin-top: 10px;
+}
+
+.login-btn{
+    width: 20%;
+    position: relative;
+    left: 40%;
+    margin: 5px;
+}
