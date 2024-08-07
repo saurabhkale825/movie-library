@@ -1,6 +1,6 @@
-// reducer.js
+
 const initialState = {
-  isAuth: true,
+  isAuth: false, // Ensure isAuth is false initially
   token: null,
   error: null,
 };
